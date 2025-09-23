@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exercice 8 - Récursion - Solution</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 2em;
+            }
 
-<head>
-    <meta charset="UTF-8">
-    <title>Exercice 8 - Récursion</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 2em;
-        }
+            button {
+                margin: 0.2em;
+                padding: 0.5em 0.5em;
+                font-size: 1em;
+            }
 
-        button {
-            margin: 0.2em;
-            padding: 0.5em 0.5em;
-            font-size: 1em;
-        }
+            #output {
+                margin-top: 2em;
+                padding: 1em;
+                font-family: 'Consolas', 'Courier New', Courier, monospace;
+                font-size: 1em;
+                font-weight: normal;
+                border: 1px solid #ccc;
+                min-height: 2em;
+                background: #fafafa;
+                color: darkgreen;
+            }
 
-        #output {
-            margin-top: 2em;
-            padding: 1em;
-            font-family: 'Consolas', 'Courier New', Courier, monospace;
-            font-size: 1em;
-            font-weight: normal;
-            border: 1px solid #ccc;
-            min-height: 2em;
-            background: #fafafa;
-            color: darkgreen;
-        }
+            code {
+                color: darkred;
+            }
+        </style>
+        <script src="ex08-data-filesystem.js"></script>
+        <script src="ex08-data-animaux.js"></script>
+        <script src="ex08-solution.js"></script>
+    </head>
 
-        code {
-            color: darkred;
-        }
-    </style>
-    <script src="ex08-data-filesystem.js"></script>
-    <script src="ex08-data-animaux.js"></script>
-    <script src="ex08.js"></script>
-</head>
+    <body>
+        <h1>Exercice 8 - <code>Récursion</code> - Solution</h1>
+        <br />
+        <hr />
+        <button id="idActionR1">R1 - Calculer la somme d'un tableau</button>
+        <button id="idActionR2">R2 - Calculer la suite de Fibonacci</button>
+        <button id="idActionR3">R3 - Calculer la taille totale d'un volume</button>
+        <button id="idActionR4">R4 - Vérifier si un volume contient des fichiers d'un certain genre</button>
+        <button id="idActionR5">R5 - Arbre généalogique</button>
 
-<body>
-    <h1>Exercice 8 - <code>Récursion</code></h1>
-    <br>
-    <hr>
-    <button id="idActionR1">R1 - Arbre généalogique</button>
-    <button id="idActionR2">R2 - Calculer la taille totale d'un volume</button>
-    <button id="idActionR3">R3 - Vérifier si un volume contient des fichiers d'un certain genre</button>
-    <button id="idActionR4">R4 - </button>
-    <button id="idActionR5">R5 - </button>
-
-    <pre id="output"></pre>
-</body>
-
+        <pre id="output"></pre>
+    </body>
 </html>
